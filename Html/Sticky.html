@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Menu</title>
+    <style>
+        body{
+            margin:0px;
+        }
+        #header{
+            text-align:center;
+        }
+        #logo{
+            width:250px;
+            height:auto;
+        }
+        #menu-bar{
+            text-align :center;
+            background-color :cadetblue;
+        }
+        #menu-bar li{
+            display:inline-block;
+            color:white;
+            padding :15px 10px;
+            font-size:18px;
+            font-weight:bold;
+        }
+        h1{
+            text-align:center;
+            padding:50px 100px;
+        }
+        #about-img{
+            width:100%;
+        }
+        .sticky{
+            position:fixed;
+            top:0px;
+            width:100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <img src="https://media.istockphoto.com/id/1313644269/vector/gold-and-silver-circle-star-logo-template.jpg?s=612x612&w=0&k=20&c=hDqCI9qTkNqNcKa6XS7aBim7xKz8cZbnm80Z_xiU2DI=" alt="" id="logo">
+    </div>
+    <nav id="menu-bar" >
+        <li>Home</li>
+        <li>About Us</li>
+        <li>Our Team</li>
+        <li>Client</li>
+        <li>Contact Us</li>
+    </nav>
+    <div id="container">
+        <h1>About Us</h1>
+        <img id="about-img" src="https://www.shutterstock.com/image-photo/old-brick-black-color-wall-260nw-1605128917.jpg">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis doloremque sit maxime excepturi neque, itaque, nemo laborum libero, dignissimos accusamus unde ex? Magni consequuntur dolor fugiat nobis deserunt nihil, autem ex sint expedita quae dolore est suscipit harum! Harum dolor odit quidem, consequatur rerum nesciunt et necessitatibus iste autem. Voluptate asperiores quaerat debitis, ea voluptas nihil suscipit porro reprehenderit, accusantium vero, veritatis voluptates ratione qui quas dicta. Nisi nam in est assumenda maiores quibusdam corporis cupiditate quae maxime odit officiis, dolorum earum omnis sequi commodi sint doloribus nesciunt reprehenderit doloremque obcaecati cumque esse. Sapiente ipsam, aliquam rem expedita deleniti ab assumenda cupiditate suscipit ducimus error pariatur harum accusamus voluptatibus consequuntur numquam! Reprehenderit minus nemo fugit molestias et id in neque cumque cum porro, fuga perspiciatis iure nihil cupiditate eos expedita blanditiis soluta quos dignissimos minima sed ad voluptatum sint. Voluptatem voluptate laboriosam molestiae nobis maiores dolor, praesentium illum inventore, nostrum sunt, necessitatibus mollitia dolorum ea nisi sit iusto deleniti itaque numquam incidunt atque animi hic? Porro cumque est voluptate aliquam accusamus delectus provident fuga dolor fugiat quisquam, veritatis nesciunt quo minus doloremque quia? Illo vitae sapiente nesciunt minima repudiandae quo enim non id inventore error cupiditate perspiciatis ullam recusandae atque, nostrum adipisci dolores quam quas perferendis neque ipsa magni voluptatibus. Dolorem at excepturi exercitationem doloribus quos. Molestiae aliquam exercitationem nostrum et cupiditate non debitis porro alias ab. Voluptates voluptas, dolorum dicta perferendis fugit est assumenda praesentium sunt nesciunt voluptate excepturi eligendi facilis laborum magnam veritatis unde modi tenetur nobis quibusdam. Iste impedit, provident dolorem quibusdam voluptate ullam! Accusamus omnis tempore ex suscipit est eos ab, maxime sapiente tenetur? Illum ea nulla dolorem rerum amet voluptatem quam minima et inventore! Rerum ullam voluptatibus, eligendi officia similique debitis eos laborum? Exercitationem voluptates sint itaque dignissimos quae reprehenderit consequatur expedita sequi impedit quod magni facere eaque iure id nostrum deleniti iusto, dolorem provident esse sapiente laboriosam, facilis aperiam veniam illo? Modi velit consequatur perspiciatis sed iusto hic aspernatur consectetur veniam. Ad officia, repellendus sunt cumque, deleniti corporis unde molestiae error ex, amet quaerat culpa laboriosam saepe quae ut aliquam quos impedit quibusdam sit autem. Porro impedit quam cupiditate eius repudiandae ratione quaerat sapiente eum rerum aspernatur tempore deserunt iste, modi odio dignissimos accusamus molestiae, ipsam accusantium pariatur corporis nostrum molestias veritatis? Accusamus doloremque, mollitia aperiam perferendis repellendus nemo dolor incidunt labore non quis veniam harum, eum molestiae culpa corporis natus enim. Deleniti nisi iusto odio non porro officiis repellat odit, autem, dolore necessitatibus eos praesentium iure sapiente culpa voluptas pariatur dicta harum? Reiciendis aliquid, laborum sed mollitia eaque tenetur porro? Excepturi vero nostrum sint, temporibus officiis neque minima eius dignissimos impedit libero consectetur, et non necessitatibus fuga aperiam enim illum maiores eum, dolore dicta! At eligendi iure harum consectetur natus vitae, eaque fugit, tempore unde aspernatur quo incidunt perferendis recusandae rem facere similique fuga voluptatem porro ad laboriosam accusamus et sed nesciunt. Nulla deserunt qui est possimus quisquam et consequuntur, a ab inventore, optio placeat accusantium perferendis libero excepturi vel. Maiores, similique corrupti!</p>
+    </div>
+    <script>
+        window.addEventListener('scroll',function(){
+            let navbar = document.getElementById('menu-bar');
+            if(window.pageYOffset>=90){
+                navbar.classList.add('sticky');
+            }
+            else{
+                navbar.classList.remove('sticky');
+            }
+        });
+    </script>  
+</body>
+</html>

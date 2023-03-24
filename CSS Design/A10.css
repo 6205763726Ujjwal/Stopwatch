@@ -1,0 +1,221 @@
+/*ul{
+    background-color: green;
+    list-style-type: none;
+    overflow : auto;
+}
+li{
+    color : white;
+    padding : 10px 15px;
+A9.css    float :left;
+    
+}*/
+/* p{
+    border : 2px solid green;
+    /* overflow :auto; */
+/* } */
+/*img{
+    width:100px;
+    height:auto;
+
+}
+#img1{
+    float :right;
+    clear :both;
+
+}
+#img2{
+    float :right;
+}*/
+/*#content{
+    background-color: green;
+    width:70%;
+    height:200px;
+    float:left;
+}
+#sidebar{
+    background-color:orange;
+    width:30%;
+    height:150px;
+    float:left;
+
+}
+#footer{
+    background-color: yellow;
+    clear:both;
+}*/
+/* 27. Css 2D Transform */
+/* #wrapper{
+    padding:20px;
+    margin:20px;
+    background-color :yellow;
+    /* transform:matrix(scalex(),skewY(), skewX(),scaleY(), translateX(),translateY(),); */
+    /* transform : matrix(1,-0.2,0,1,0,0); */
+
+/* } */
+/*a{
+    background-color:blueviolet;
+    text-decoration:none;
+    padding:10px 20px;
+    color:white;
+    /* transform:rotate(10deg); */
+    /* transform-origin: 0% 100%; */
+    /* display: inline-block; */
+    /* transform:translate(50px, 50px); */ 
+/* } */
+/*a:hover{
+    /* transform :rotate(-20deg); */
+    
+/* } */
+/* 29 CSS 3D transform */
+/*#cover{
+    border : 2px solid yellow;
+    width: 200px;
+    height:200px;
+    margin: 150px;
+}
+#content{
+    background-color: green;
+    height :200px;
+    width:200px;
+    /* transform : perspective(300px) rotate3d(50,50,50,30deg); */
+    /* transform : perspective(300px) translate3d(0px,50px,-50px); */
+
+/* } */
+/* 30. CSS transition */
+/*#div1{
+    height :100px;
+    width:100px;
+    background-color: red;
+    margin:100px;
+    /* transition-property: width; */
+    /* transition-duration: 2s */
+    /* transition: delay 10s; */
+    /* transition-timing-function :ease-out; */
+    /* transition:width 10s, height 10s; */
+/* } */
+/*#div1:hover{
+    /* width : 200px; */
+    /* background-color: yellow; */
+    /* width :200px; */
+    /* height:300px; */
+    /* height:200px; */
+/* } */
+/* CSS Animation */
+/* @keyframes changewidth{  */
+   /* 10% {background-color:green; border-radius:10%;}
+    20% {background-color:yellow; border-radius:20%;}
+    30% {bacground-color:orange; border-radius:30%;}
+    40% {background-color:pink; border-radius:40%;}
+    50% {background-color:purple; border-radius:50%;}
+    60% {background-color:blueviolet; border-radius:40%;}
+    70% {background-color:red; border-radius:30%;}
+    80% {background-color:blue; border-radius:20%;}
+    90% {background-color:olivedrab; border-radius:10%;}
+    100% {background-color:olive; border-radius:10%;}
+    /* 25% {width:300px;} */
+    /* 50% {background-color: yellow;} */
+    /* 75% {width:200px;} */
+    /* 100% {background-color: pink;} */
+    /* from {width:50%;} */
+    /* to {width:100%;} */
+/* } */
+/* #animate{ */
+    /* background-color:red; */
+    /* height:300px; */
+    /* width:300px; */
+    /* animation-name: changewidth; */
+    /* animation-duration: 2s; */
+    /* animation-delay: 2s; */
+    /* animation-iteration-count: infinite; */
+    /* animation-timing-function:linear;   */
+
+/* } */
+/*#animate2{
+    background-color:red;
+    height:200px;
+    width:200px;
+    animation-name: changecolor;
+    animation-duration: 2s;
+    /* animation-delay: 2s; */
+    /* animation-iteration-count: infinite; */
+    /* animation-direction:reverse; */
+    /* animation-direction:alternate; */
+    /* animation-direction:alternate-reverse; */
+        /* animation-timing-function: ease; */
+    /* animation-timing-function: ease-in; */
+    /* animation-timing-function: ease-in-out; */
+    /* animation-timing-function: linear; */
+/* } */
+
+/* @media screen{ */
+    /*p{
+        font-size:20px;
+    }
+
+/* } */
+/*@media print{
+    p{
+        font-size:30px;
+    }
+    img{
+        display:none;
+    }
+    div{
+        width:50%;
+    }
+
+}*/
+/*32. Viewport metatag */
+/* 33.Media-Query */
+#div1{
+    width:70%;
+    float:left;
+    background-color: lawngreen;
+
+}
+#div2{
+    width:30%;
+    float:left;
+    background-color: brown;
+
+}
+h1{
+    font-size: 40px;
+}
+@media screen and (max-width :768px){
+    #div1{
+        width : 50%;
+    }
+    #div2{
+        width :50%;
+
+    }
+
+}
+@media screen and (min-width :400px) and (max-width : 768px){
+    #div1{
+        width :100%
+    }
+    #div2{
+        width: 100%;
+        color: white;
+        background-color: black;
+    }
+
+}
+img{
+    width :100%;
+    height :auto;
+
+}
+video{
+    width: 100%;
+    height :auto;
+}
+
+
+
+
+
+
+

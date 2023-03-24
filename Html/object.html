@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+     function Person(first,last ,a){
+        this.FirstName = first;
+        this.LastName = last;
+        this.age = a;
+     
+     this.sayhello = function(){
+        alert("hii");
+     }
+     this.changeAge = function(newAge){
+        this.age = newAge;
+     }
+    }
+        
+     let person1 = new Person("Rohit","kumar",23);
+     person1.changeAge(28);
+     let person2 = new Person("Amit","Kumar",25);
+
+     console.log(person1);
+     console.log(person2);
+    
+    
+        </script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+.flex-container{
+    background-color: indianred;
+    display:flex;
+    /* flex-direction:row; */
+    /* flex-direction :row-reverse; */
+    /* flex-direction : column; */
+    /* flex-direction :column-reverse; */
+    /* flex-wrap :nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap:wrap-reverse; */
+        /* flex-flow : row wrap; */
+        /* justify-content: center; */
+        /* justify-content: start; */
+        /* justify-content: center; */
+        /* justify-content: end; */
+        /* justify-content: space-around; */
+        /* justify-content: space-between; */
+        /* height:70vh; */
+        /* align-items:stretch; */
+        /* align-items: center; */
+        /* align-items: start; */
+        /* align-items: end; */
+        /* flex-wrap:wrap; */
+        /* align-content:stretch; */
+        /* align-content: space-between; */
+        /* align-content:space-around; */
+        /* align-content:flex-start; */
+        /* align-content:flex-end; */
+        height:400px;
+
+}
+.flex-child{
+    background-color: wheat;
+    padding:20px;
+    margin:20px;
+    width:100px;
+    text-align:center;
+    /* display:inline-block; */
+}
+#one{
+
+    /* order:3; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+    align-self: flex-start;
+}
+#two{
+    /* order:1; */
+    /* flex-grow: 3; */
+    /* flex-shrink: 3; */
+    /* flex-basis: 300px; */
+    align-self: center;
+
+}
+#three{
+    /* order:2; */
+    /* flex-grow: 2; */
+    /* flex-shrink: 2; */
+    align-self:flex-end;
+
+}

@@ -1,0 +1,191 @@
+                    /* table{
+    border : 1px solid black;
+    border-collapse: collapse;
+    /* border-spacing: 40px; */
+    /* empty-cells: hide; */
+    /* table-layout: fixed; */
+    /* width:100%; */
+
+/* } */
+/*tr{
+    border: 1px double orange;
+}
+th{
+    border: 1px solid orange;
+    height: 40px;
+    padding:20px;
+    width:20px;
+    /* text-align: left; */
+    /* vertical-align: baseline; */
+/* } */
+/*td{
+    border: 1px solid red;
+    height:30px;
+    width:20px;
+    /* text-align: center; */
+    /* text-align: left; */
+    /* vertical-align: baseline; */
+    /* padding:30px; */
+/* } */
+/* caption{ */
+    /* border: solid 1px green; */
+    /* caption-side: bottom; */
+/* } */
+/*:root{
+    --primary-color: rgb(73, 173, 73);
+    --button-color: rgb(219, 203, 173);
+    --text-color: #c57878;
+}
+#fun{
+    background-color: var(--primary-color);
+    height :200px;
+    width: calc(100% - 200px);
+
+}
+a{
+    text-decoration: none;
+    padding : 10px 30px;
+    margin: 20px;
+    background-color: var(--button-color);
+    color: var(--text-color);
+    /* margin-top: 20px; */
+/* } */
+/* 18. CSS Table */
+/* 19. Box Sizing */
+/*#div1{
+    background-color:blue;
+    width:600px;
+    height: 150px;
+    
+}
+#div2{
+    background-color:blanchedalmond;
+    width:600px;
+    height:150px;
+    padding: 50px;
+    border: solid 2px greenyellow;
+
+}*/
+/*#green{
+    color:yellow;
+}
+#blue{
+    color:orange;
+}
+#initial{
+    color:initial;
+
+}
+#inherit{
+    color:inherit;
+
+}*/
+/* 20. Object-Fit */
+/*img{
+    border: 2px solid black;
+    width: 500px;
+    height:200px;
+    /* object-fit: contain; */
+    /* object-fit: fill; */
+    /* object-fit: cover; */
+    /* object-fit: contain; */
+    /* object-position: top left; */
+    /* object-position: top center; */
+/* } */
+/* 21. Pseudo- class */
+/*li:last-child{
+    color:green;
+}*/
+/*li:nth-child(odd){
+    color:brown;
+}*/
+/*li:nth-child(3n + 1){
+    color:brown;
+}*/
+/*li:nth-last-child(2){
+    color:brown;
+}*/
+/*input:focus{
+    border: solid 10px green;
+}*/
+/* 22. Pseudo Element */
+/*p::first-letter{
+    color: red;
+    font-size: 20px;
+}
+p::first-line{
+    color: green;
+    font-size: 20px;
+}
+h2::before{
+    content:url('flower.png');
+}
+h2::after{
+    content: " added image";
+}
+::selection{
+    background-color:green;
+    color: yellow;
+
+
+}*/
+/*23 Display */
+/*.display{
+    border: solid 1px red;
+    height :100px;
+    width: 50%;
+    display :inline-block;
+}
+#div1{
+    /* display:none; */
+    /* visibility: hidden; */
+/* } */
+/* 24.Position */
+body{
+    height:1000px;
+    
+}
+ #parent{ 
+    border :1px solid black;
+    padding: 20px;
+    width: 50%;
+    margin:100px;
+    position: relative;
+
+}
+#one{
+    width:100px;
+    height:100px;
+    background-color: orange;
+    display: inline-block;
+    position : relative;
+    z-index: 3;
+
+}
+#two{
+    width:100px;
+    height:100px;
+    background-color: yellow;
+    display: inline-block;
+    /* position :; */
+    /* top : 0px; */
+    /* left : 0px; */
+    top :50px;
+    left :-50px;
+    position : relative;
+    z-index:  3;
+
+
+}
+#three{
+    width:100px;
+    height:100px;
+    background-color: green;
+    display: inline-block;
+    position : relative;
+    top : 100px;
+    left: -100px;
+    z-index: 3;
+}
+
+

@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('Body.avif');
+      /* background: url('img/bg.jpg'); */
+     /* background-image: url('https://cdn.pixabay.com/photo/2016/11/19/12/43/dark-1839088_960_720.jpg'); */
+    /* background-repeat:no-repeat; */
+    font-family: 'Poppins', sans-serif;
+    color:white
+    /* background-color: red; */
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid green; */
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+
+.mid {
+    display: block;
+    width: 40%;
+    margin: 30px auto;
+    /* border: 2px solid yellow; */
+}
+.right {
+    position: absolute;
+    width:20%;
+    margin:auto;  
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    /* font-size:25px; */
+
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 24px 20px;
+    /* padding: auto; */
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: gray;
+}
+
+.left img {
+    width: 130px;
+    filter: invert(100%);
+}
+
+.left div {
+    text-align: center;
+    filter: invert(100%);
+}
+
+.btn {
+    /* margin: 0px 9px; */
+    background-color: black;
+    color: white;
+    padding: 4px 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    display:inline-block;
+}
+
+.btn:hover {
+    background-color: grey;
+}
+
+.container{
+    border: solid 2px white;
+    margin: 100px 80px;
+    padding: 20px 50px;
+    width:33%;
+    border-radius: 28px;
+    text-align:center;
+    justify-content: center;
+}
+  /* h1{
+    color:white;
+    width: 60%;
+    justify-content: center;
+    text-align:center;
+}   */
+.form-group input{
+    font-family: 'Poppins', sans-serif;
+    text-align:center;
+    display:block;
+    width:508px;
+    padding:1px;
+    border:2px solid black;
+    margin:3px auto;
+    font-size:25px;
+    border-radius:8px;
+}
+.container h1{
+    text-align:center;
+    /* vertical-align: middle; */
+    color:white;
+    width:60%;
+}
+.container button{
+    display:block;
+    width:100%;
+    margin: 20px auto;
+
+}

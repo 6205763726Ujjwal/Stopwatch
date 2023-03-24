@@ -1,0 +1,164 @@
+/* 10.Css Units */
+/*html{
+    font-size:10px;
+}
+
+#parent{
+    /* border: solid 2px green; */
+    /* width: 50vw; */
+    /* height:50vh; */
+        /* font-size: 10vw; */
+
+/* } */
+/*#child{
+    /* border:solid 2px yellowgreen; */
+     /* width:250px; */
+     /* font-size: 2rem;  */
+/* } */
+/* 11. Css Cursor */
+/* div{ */
+    /* border: solid 2px orangered !important; */
+    /* cursor:auto; */
+    /* cursor:all-scroll; */
+    /* cursor:cell; */
+    /* cursor:col-resize; */
+    /* cursor:crosshair; */
+    /* cursor:e-resize; */
+    /* cursor:grab; */
+    /* cursor: help; */
+    /* cursor:not-allowed; */
+    /* cursor: pointer; */
+    /* cursor:progress; */
+    /* cursor:wait; */
+    /* cursor: zoom-in; */
+    /* cursor: zoom-out; */
+/* } */
+/* 12. Css Important */
+/* div{ */
+    /* border:solid 2px green; */
+/* } */
+/* 13.Box Shadow */
+
+/*div{
+    border: 2px solid black;
+    width: 400px;
+    margin: 50px;
+    padding:20px;
+    text-align:center;
+    background-color:yellowgreen;
+    box-shadow: 5px 10px 5px 5px red, 5px -10px 5px 5px pink;
+    /* x,y,blur,spread radius color */
+/* } */
+/* Css Opacity- it show the transparaent of element and images */
+/*#color-box{
+    background-color: green;
+    height:200px;
+    width:200px;
+    margin-bottom:30px;
+    opacity:0.5;
+}*/
+/*img{
+    opacity:0.5;
+}*/
+/*#red-box{
+    background-color:orange;
+    height:300px;
+    width:200px;
+    margin-top:-150px;
+    opacity:0.5;
+}*/
+/* img{ */
+    /* filter: blur(1px); */
+    /* filter:brightness(60%); */
+    /* filter:contrast(70%); */
+    /* filter : drop-shadow(5px 10px 6px green); */
+    /* filter:grayscale(100%); */
+    /* filter:hue-rotate(360deg); */
+    /* filter:invert(100%); */
+    /* filter:opacity(10%); */
+    /* filter:saturate(40%); */
+    /* filter:sepia(90%); */
+        /* filter:blur(20px); */
+    
+/* } */
+/* 14. Image sprite */
+/*#sprite{
+    height:128px;
+    background-image: url('flower.jpg');
+    background-repeat : no-repeat;
+    background-position: 0px - 128px;
+}*/
+/* 15.Css Gradients */
+/* #overflow{  */
+    /* height: 500px; */
+    /* width:500px; */
+    /* border : solid 2px green; */
+    /* background-image: linear-gradient(to right, red, yellow); */
+    /* background-image: linear-gradient(to  bottom right, green,yellow); */
+    /* background-image: radial-gradient(circle,green 20%, yellow 30%,red 50%); */
+    /* background-color : whitesmoke; */
+    /* height: 300px; */
+    /* width: 200px; */
+    /* border:solid 2px white; */
+    /* overflow:visible; */
+    /* overflow:hidden; */
+    /* overflow:auto; */
+    /* resize:both; */
+    /* resize: none; */
+    /* resize: vertical; */
+    /* resize:horizontal; */
+    /* overflow-x:scroll; */
+    /* overflow-y:hidden; */
+    /* overflow:auto; */
+/* } */
+/* 16.Css Resizeable */
+/*textarea{
+    resize: none;
+}*/
+/* 17.Css Lists */
+ul{
+    /* list-style-type: none; */
+    /* list-style-type: disc; */
+    /* list-style-type:circle; */
+    /* list-style-type:square; */
+    list-style-image: url(parrot.png);
+    list-style-position: inside;
+}
+ol{
+    /* list-style-type: lower-alpha; */
+    /* list-style-type: upper-alpha; */
+    /* list-style-type: lower-roman; */
+    /* list-style-type:upper-roman; */
+    /* list-style-type:decimal; */
+    /* list-style-type: decimal-leading-zero; */
+    list-style-image: url('flower.png') ; 
+    list-style-position: inside;
+    
+}
+li{
+    border: solid 2px green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

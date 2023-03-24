@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* #btn{
+            color:red;
+            /* background-color:green; */
+        
+        .color{
+            color :brown;
+            background-color: red;
+        }
+        .dim{
+            padding :20px;
+            margin:20px;
+        }
+        /* #box{
+            border:2px solid grey;
+            width:30%;
+            height:60%;
+
+        }  */
+        
+    </style>
+</head>
+<body>
+    <h1>I love Coding</h1>
+    <!-- <button id="btn" name="form" style="color:green">Send</button>   -->
+    <div id="box" class="dim color">
+        <p>This is Paragraph text</p>
+    </div>
+
+    <script>
+        let box = document.getElementById('box');
+    // let width = box.offsetWidth;
+    //    let height= box.offsetHeight;
+      let width = box.clientWidth;
+      let height= box.clientHeight;
+       console.log(width);
+       console.log(height);
+        // console.log(box.classList)
+        // box.classList.replace('dim','para');
+        // let result = box.classList.contains('para');
+        //  box.classList.toggle('color');
+
+        // console.log(result);
+
+
+        // box.className += " dim";
+        // for(let css of box.classList){
+        // console.log(css);
+        // }
+    //    let css= getComputedStyle(btn);
+
+    //    console.log(css.color);
+    //    console.log(css.background);
+        // btn.setAttribute("name","form");
+    // let val= btn.getAttribute('name');
+    // console.log(val);
+    //  btn.removeAttribute("id");
+    //  btn.hasAttribute("btn");
+    // let send =btn.style.cssText="color:brown; background-color: green;"
+    // btn.setAttribute('style','color:white; background-color:black;');
+    // btn.style.cssText= 'color:black; padding:20px; margin:20px; background-color:pink;'
+    </script>
+        <!-- <script src="script.js"></script> -->
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //Array De-structuring
+
+    // let book = ['advance js',100, 150,["Techgun",2021]];
+    
+    // let name = book[0];
+    // let page = book[1];
+    // let price = book[2];
+
+    // let[name,page,price,[publication,year]] = book;
+    // console.log(publication);
+
+    // function yup(){
+    //     return ['array1','array2'];
+    // }
+    // let [topic1, topic2] = yup();
+    // console.log(topic1,topic2);
+    // 86.Object De-structing
+
+    let obj = {
+        FirstName :"Amit",
+        LastName:"Kumar",
+
+        publication:{
+            Name : "Techgun",
+            year : 2021
+        }
+
+    };
+    let{FirstName,LastName,publication:{Name:codewithharry,year}} = obj;
+    console.log(codewithharry);
+
+
+    
+    
+    
+    </script>
+    
+</body>
+</html>

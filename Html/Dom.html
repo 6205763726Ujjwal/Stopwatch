@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    #box{
+        height:100px;
+        width:100px;
+        background-color:orange;
+        color:white;
+        text-align:center;
+    }
+    
+    </style>
+</head>
+<body>
+    <H1>Hello DOM</H1>
+    <!-- <button id="btn" onclick="btnClick()">Click ME!</button> -->
+    <!-- <button id="btn">Click ME!</button> -->
+    <div id="box">Hello</div>
+    <!-- <img  id="images-1" src="/Images/new.avif" alt ="">images</img> -->
+
+    <script>
+        // function btnClick(){
+        //     alert("Button was Click");
+        // }
+        //  btn.addEventListener('click',function(){
+        //     console.log("Button was Clicked!");
+        //  });
+        //  btn.addEventListener('mouseover',function(){
+        //     console.log('Mouse over is activated');
+        //  });
+        //  btn.addEventListener('mouseout',function(){
+        //     console.log("Mouse out is activated");
+        //  });
+        // function click1(){
+        //     console.log("click1 activated");
+        // }
+        // function click2(){
+        //     console.log("click2 activated");
+        // }
+        // btn.addEventListener('click',click1);
+        // btn.addEventListener('click',click2);
+        // btn.removeEventListener('click',click1);
+        // window.addEventListener('DOMContentLoaded',function(){
+        //     console.log("DOM tree Created");
+        // });
+        // window.addEventListener('Load',function(){
+        //     console.log("Fully Loaded");
+        // });
+        // let img= document.getElementById("images-1");
+        // img.addEventListener('load',function(){
+        //     console.log("fully loaded");
+        // });
+        // let box = document.getElementById('box');
+        // function fun(){
+        //     alert("  button activated");
+        // }
+        window.addEventListener('keyup',checkey);
+        function checkey(event){
+            console.log(event.key);
+        }
+
+    </script>
+</body>
+</html>
